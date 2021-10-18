@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(109, 45, 134);
+   
+}
+
+.contenedor{
+    width: 400px;
+    height: 600px;
+    max-width:500px ;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap ;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.titulo{
+    color: lightslategrey;
+    text-align: center;
+}
+.casita{
+    width: 30px;
+    height: 30px;
+    margin: 20px ;
+    text-align: center ;
+}
+.op{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.usuario img{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    margin: 0px ;
+    text-align: center ;
+    
+}
+
+.usuario{
+    color:darkblue;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    }
+
+h3{
+color:darkblue;
+text-align: center;
+}
