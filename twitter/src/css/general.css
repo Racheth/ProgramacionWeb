@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height:100vh;
+    background-color: black;
+}
+.container > div:first-child{
+    display:flex;
+    width: 50%;
+    height: 90%;
+    background-image: url("fondo.png");
+    justify-content: center;
+    align-items: center;
+}
+.container>div:nth-child(2){
+    width: 50%;
+    height: 90%;
+}
+.container>div:last-child{
+    padding-top: 25px;
+    height: 5%;
+
+}
+.todo{
+    background-color: black;
+    flex-wrap: wrap;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    min-width: 500px;
+}
+.todo a{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+.texto{
+    padding: 20px;
+}
+.op{
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.op img{/*imagen de google,apple*/
+    width: 20px;
+    height: 20px;
+}
+.inicio{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 40px 0px;
+    color: white;
+}
+.unete{
+    width: 500px;
+    margin: 0px 0px 32px 0px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sesion{
+    color: rgb(217, 217, 217);
+    padding-top: 20px;
+}
+
+.objeto a{
+    color: cornflowerblue;
+}
+.objeto img,.objeto,.todo a,.todo span{
+width: 450px;
+height: 100%;
+object-fit: cover;
+color: gray;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.photo img{
+    width: 20vw;
+    height: 15vw;
+  
+}
+
+@media(max-width:1000px){
+.container{
+    width: 100vw;
+    height:100vh;
+    display: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div:first-child{
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.container>div:nth-child(2){
+    width: 100vw;
+    background-color: black;
+    
+}
+.container>div:last-child{
+    width: 100vw;
+   
+}
+.todo{
+    background-color: black;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.todo a{
+    margin: 0px 12px;
+}
+.texto{
+    padding: 20px;
+}
+.op{
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px 20px;
+    justify-content: center;
+    font-size: 20px;
+}
+.op img{/*imagen de google,apple*/
+    width: 20px;
+    height: 20px;
+}
+.inicio{
+    width: 600px;
+    font-family: inherit;
+    font-size: 40px;
+    margin: 40px 0px;
+}
+.unete{
+    width: 500px;
+    font-family: inherit;
+    font-size: 20px;
+    margin: 0px 0px 32px 0px;
+}
+.photo img{
+    width: 20vw;
+    height: 15vw;
+    max-width: 15vw;
+}
+h1{
+    color: white;
+}
+.sesion{
+    color: rgb(217, 217, 217);
+    padding-top: 20px;
+}
+.op h2{  
+font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+
+.objeto a{
+    color: cornflowerblue;
+}
+.objeto,.todo a,.todo span{
+width: 450px;
+height: 100%;
+object-fit: cover;
+color: gray;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    padding-top: 70px;
+}
+
+}
