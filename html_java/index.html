@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascrit</title>
+</head>
+
+<body>
+
+    <script>
+
+        var nombre = prompt("ingrese su nombre");
+        alert("bienvenido " + nombre);
+        /*-----------------------------------------------------------------*/
+        var edad = prompt("ingrese su edad");
+        if (edad >= 0) {
+            alert("tienes edad para conducir");
+        } else {
+            alert("no tienes edad para conducir");
+            /*-----------------------------------------------------------------*/
+        }
+        do{
+            
+            var calificacion = prompt("ingrese una calificacion 0-10");
+            
+            if(calificacion <0 || calificacion >10){
+                alert("calificacion invalida");
+            }
+            }while(calificacion < 0 || calificacion > 10);
+
+            if(calificacion >=0 & calificacion <3){
+                alert("Muy deficiente");
+            }else if(calificacion>=3 & calificacion <5){
+                alert("Insuficiente");
+            }else if(calificacion>=5 & calificacion <6){
+                alert("Suficiente");
+            }else if(calificacion>=6 & calificacion <7){
+                alert("Bien");
+            }else if(calificacion>=7 & calificacion <9){
+                alert("Notable");
+            }else{
+                alert("Sobre saliente");
+            }
+            var N=0;
+             N = prompt("Cuantas calificaciones desea agregar");
+            var x=1;
+            var prome=0;
+            var y=0;
+            var promedio=0;
+            while(x<=N){
+                y = prompt("Ingrese promedio numero: "+x);
+                prome=parseInt(prome)+parseInt(y);
+                x++;
+            }
+            promedio = prome/N;
+            alert("Promedio general es: "+ promedio);
+            /*-----------------------------------------------------------------*/
+          
+           var canti = prompt('Cantidad del numero fibonacci');
+	var a=0,b=1,c,s=1;
+	for(i=1; i <= canti; i++){
+		c=a+b;
+        alert("sucesion "+i+" : "+c);
+        s=s+c;
+        a=b;
+        b=c;
+	}
+    </script>
+</body>
+
+</html>
