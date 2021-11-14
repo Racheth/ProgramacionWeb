@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+.letra,.from input{
+   text-align: center;
+   color: rgb(219, 245, 241);
+   font-size: 40px;
+}
+.posicion,.id{
+    display: flex;
+    justify-content: center;
+    color: rgb(219, 245, 241);
+    font-size: 40px;
+}
