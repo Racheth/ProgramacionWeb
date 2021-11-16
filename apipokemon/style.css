@@ -1,14 +1,37 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(111, 113, 255);
+}
+.container{
+    display: bl;
+    margin: 0 auto;
+    background-color: rgb(116, 51, 236);
+    width: 20vw;
+    height: 40vw;
+    
 }
 .letra,.from input{
    text-align: center;
    color: rgb(219, 245, 241);
    font-size: 40px;
 }
-.posicion,.id{
-    display: flex;
-    justify-content: center;
+.posicion,.id,.poketypes{
+    display: block;
+    text-align: center;
     color: rgb(219, 245, 241);
-    font-size: 40px;
+    font-size: 20px;
+    background-color: rgb(115, 65, 255);
+}
+.pokestats{
+    color: rgb(219, 245, 241);
+    font-size: 20px;
+    text-align: center;
+}
+.posicion input{
+    border-radius: 50px;
+    height: 20px;
+    margin-top: 10px;
+}
+.poke-img{
+    display: block;
+    margin: auto;
 }
